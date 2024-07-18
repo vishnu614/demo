@@ -1,0 +1,4 @@
+ var key = '93f26e3c57081a6210de53b8dcfdfea4';
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${key}`)
+          .then(resp => resp.json())
+details of the weather
